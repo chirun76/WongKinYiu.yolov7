@@ -1,0 +1,19 @@
+{
+    "subgraphs": [
+        {
+            "begin" : ["/model/model.77/m.0/Conv_output_0"],
+            "end" : "/model/model.77/Reshape_1_output_0",
+            "model": "replace_subgraph_1.onnx"
+        },
+        {
+            "begin" : ["/model/model.77/m.1/Conv_output_0"],
+            "end" : ["/model/model.77/Reshape_3_output_0"],
+            "model": "replace_subgraph_2.onnx"
+        },
+        {
+            "begin" : ["/model/model.77/m.2/Conv_output_0"],
+            "end" : ["/model/model.77/Reshape_5_output_0"],
+            "model": "replace_subgraph_3.onnx"
+        }
+    ]
+}
